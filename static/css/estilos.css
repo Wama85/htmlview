@@ -1,5 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 html body {
-    padding-top: 130px;
+    padding-top: 10px;
 }
 
 html {
@@ -11,14 +15,36 @@ html {
 }
 
 .index {
+    display: flex;
     background: #05616D;
     vertical-align: middle;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
     min-height: 100vh;
     color: #fff;
+}
+.index .contenido
+{
+    padding-left: 20px;
+}
+.index .contenido h3{
+    font-size: 5.5rem;
+}
+
+.index .contenido p{
+    font-size: 1.7rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
+    border-radius: 5rem;
+    background: #E23C37;
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 #indexnav {
